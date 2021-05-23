@@ -56,8 +56,8 @@ export const Footer: React.FC<{
         {config.email && (
           <a
             className={styles.email}
-            href={`mailto:${config.twitter}`}
-            title={`Email ${config.twitter}`}
+            href={`mailto:${config.email}`}
+            title={`Email ${config.email}`}
             target='_blank'
             rel='noopener noreferrer'
           >
